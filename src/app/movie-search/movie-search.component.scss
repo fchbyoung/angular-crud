@@ -1,0 +1,22 @@
+.movies {
+  background: white;
+  padding: 0.5em 1em 0.5em 1.5em;
+  margin: 1em;
+  max-width: 16em;
+}
+
+.movies .movieListItem {
+  font-size: 0.875em;
+  font-family: Georgia, Serif;
+  background: #cce5ff;
+  padding: 0.3em;
+  margin: 0.2em;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}

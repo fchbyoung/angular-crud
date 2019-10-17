@@ -1,0 +1,15 @@
+<div *ngIf="movie" class="details">
+  <h3>You selected: {{movie.name}} Details:</h3>
+  <table style="width: 100%">
+    <tr>
+      <td>name:</td>
+      <td><input type="text" [(ngModel)]="movie.name"></td>
+    </tr>
+    <tr>
+      <td>release year:</td>
+      <td><input type="text" [(ngModel)]="movie.releaseYear"></td>
+    </tr>
+  </table>
+  <button (click)="save()">Save</button>
+  <button (click)="goBack()">go back</button>
+</div>
